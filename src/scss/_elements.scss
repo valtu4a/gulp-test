@@ -1,0 +1,16 @@
+.btn{
+    font: $font;
+    display: inline-block;
+    text-decoration: none;
+    padding:10px 25px;
+    border-radius: $bdrs;
+    background: $c0;
+    color: $btn-text;
+    box-shadow: $bx-sh;
+    transition: $trans;
+    box-sizing: border-box;
+    &:hover{
+        background: lighten($c0,10%);
+        transform: $move-up;
+    }
+}
